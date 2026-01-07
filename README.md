@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Vault - Full Stack Notes Application
 
-## Getting Started
+A secure and responsive notes management application built with the Next.js App Router and MongoDB. This project was developed as part of a technical selection task.
 
-First, run the development server:
+## Live Deployment
+**Live Demo:** https://selection-task-vault-srishti885.vercel.app
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Project Overview
+Vault is designed to provide a seamless user experience for managing digital notes. It utilizes a modern tech stack to ensure fast performance, data persistence, and a clean user interface.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Core Features
+- Full CRUD Operations: Create, view, update, and delete notes in real-time.
+- Database Integration: Persistent storage using MongoDB Atlas.
+- API Routes: Backend logic handled via Next.js Serverless Functions.
+- Responsive Design: Fully optimized for desktop, tablet, and mobile devices using Tailwind CSS.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Tech Stack
+- Frontend: Next.js (React), Tailwind CSS
+- Backend: Next.js API Routes (Serverless)
+- Database: MongoDB (Mongoose ODM)
+- Deployment: Vercel
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Local Installation
+To run this project on your local machine:
 
-## Learn More
+1. Clone the repository:
+   git clone https://github.com/srishti885/selection-task-vault
 
-To learn more about Next.js, take a look at the following resources:
+2. Install dependencies:
+   npm install
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. Configure Environment Variables:
+   Create a .env.local file in the root directory and add your connection string:
+   MONGODB_URI=mongodb+srv://t1974010_db_user:k8YrHJFKAgTIBs1A@cluster0.sgtbpgr.mongodb.net/NotesDB
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+4. Start the development server:
+   npm run dev
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+**Developed by Srishti Goenka**
